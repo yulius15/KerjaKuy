@@ -1,0 +1,2023 @@
+:root {
+    --primarhy: #010101;
+    --title1:#de8d3c;
+    --title2: #0da2ff;
+    --gbnavbar:#dddada93;
+    
+    
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html,
+
+body {
+    font-size: 'Poppins', sans-serif;
+    min-height: 6380px;
+   
+
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--title2);
+   
+}
+
+.navbar .navbar-title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 7rem;
+    color: var(--primarhy);
+    font-style: oblique;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 10px 10px 18px 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+   
+}
+
+.navbar .navbar-title span {
+    font-size: 1.5rem;
+    color: var(--title1);
+    font-style: normal;
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: normal;
+    word-spacing: 1rem;
+    
+}
+
+.navbar .ul1 {
+    padding: 2.5rem;
+    word-spacing: 2.1rem;
+    
+}
+
+.navbar .ul1 a {
+    text-decoration: none;
+   
+    
+}
+
+.navbar .ul1 a:hover {
+    color: var(--title1);
+    background-color: var(--gbnavbar);
+    border-radius: 10px;
+    padding: 10px 15px;
+   
+    
+}
+
+.navbar .ul1 a.book {
+    padding-right: 0.5rem;
+
+}
+
+.navbar .ul1 a.help {
+    padding-right: 0.5rem;
+}
+
+.navbar .ul1 a {
+    font-size:2rem;
+    color: var(--primarhy);
+}
+
+.navbar .ul2 {
+    padding: 2.5rem 0.1rem;
+    
+}
+
+.navbar .ul2 a {
+    font-size:2rem;
+    color: var(--primarhy);
+}
+
+.navbar .ul2 .case {
+    padding-right: 0.5rem;
+}
+
+.navbar .ul2 .ul3 {
+    display: none;
+    background-color: black;
+    margin: 3rem 2rem;
+    
+
+}
+
+.navbar .ul2:hover .ul3 {
+    display: block;
+    background: var(--gbnavbar);
+    position: absolute;
+    padding: 17px;
+    border-radius: 5px;
+
+}
+
+.navbar .ul2:hover .ul3 li {
+    display: block;
+}
+
+.navbar .ul2:hover .ul3 li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar .ul2 li:hover .ul3 li a:hover {
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.navbar .ul2 a:hover {
+    color: var(--title1);
+    background-color: var(--gbnavbar);
+    border-radius: 10px;
+    padding: 10px 15px;
+    
+}
+
+.navbar .login {
+    margin: 3rem 16.2rem; 
+   color: var(--primarhy);
+   font-size: 1.5rem;
+   font-weight: 800;
+   border: none;
+   background: none;
+   width: 0;
+   height: 0;
+   
+}
+
+.navbar .login:hover:hover {
+    color: var(--title1);
+}
+
+.sec1 {
+    padding: 5% 10% 1.4rem;
+   
+}
+
+.hero {
+    position: relative;
+    color: rgb(247, 117, 117);
+}
+
+.hero .img1 {
+    display: flex;
+    position:absolute;
+    width: 700px;
+    height: 620px;
+    margin: -6.7rem 38.2rem;
+    
+}
+
+
+.hero h3{
+    font-size: 5rem;
+    margin-right: 10rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+
+
+}
+
+.inputbox {
+    position: relative;
+   
+}
+
+.username {
+    padding: 10px;
+    top: 10px;
+    background:var(--gbnavbar);
+    border-radius: 2px;
+    outline: none;
+    color: #444444;
+    border: 3px solid #0da2ff;
+    font-size: 20px;
+    width: 22rem;
+    height: 2rem;
+    
+
+}
+
+.placeholder {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    font-size: 18px;
+    padding: 0px 5px;
+    color: #0da2ff;
+    transition: 0.3s;
+    pointer-events: none;
+    font-weight: 600;
+}
+
+.username:focus + .placeholder, 
+.username:not(:placeholder-shown)
++ .placeholder{
+    top:-10px;
+    background-color: #d3edf8;
+}
+
+.forget{
+    margin:20px 0px;
+    font-size: 20px;
+    color: black;
+    
+    
+    
+}
+
+.forget label a {
+    padding:5.5rem;
+    color: rgb(17, 91, 250);
+    
+    
+}
+
+
+
+.forget label a:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 147, 0.608);
+    
+}
+
+#check {
+    margin: 1rem;
+    
+}
+
+
+.atau {
+    color: var(--primarhy);
+    margin: 2rem 6.2rem;
+    font-size: 1.2rem;
+}
+
+.login .btn {
+    color: var(--title2);
+    width: 32.9%;
+    height: 50px;
+    border-radius: 40px;
+    background: grey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.4rem 0rem;
+}
+
+.login .btn:hover {
+    color: var(--primarhy);
+    background-color: #0da2ff;
+   
+} 
+
+.login1 button span {
+    margin: 0rem 0.5rem;
+    color: var(--primarhy);
+    
+}
+
+.login1 .btn1 {
+    color: white;
+    width: 32.9%;
+    height: 50px;
+    border-radius: 40px;
+    background: grey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.4rem 0rem;
+   
+}
+
+.login1 .btn1:hover {
+    color: var(--primarhy);
+    background-color: #0da2ff;
+   
+} 
+
+.login2 .btn2 {
+    color: white;
+    width: 32.9%;
+    height: 50px;
+    border-radius: 40px;
+    background: grey;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.07rem;
+    font-weight: 600;
+    margin: 0.4rem 0rem;
+}
+
+.login2 .btn2:hover {
+    color: var(--primarhy);
+    background-color: #0da2ff;
+   
+} 
+
+.sec2 {
+    background-color: #efefdc;
+    padding: 14rem 14rem 3.5rem 14rem;
+    margin: 0;
+   
+}
+
+.sec2 h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    position: relative;
+    margin: -10rem -9rem 3rem;
+}
+
+.saran h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: rgb(63, 62, 62);
+}
+
+.all {
+    margin: -1rem -7rem;
+    
+
+}
+
+.saran1 a button {
+    background-color: transparent;
+    border: 3px solid #010101;
+}
+
+.saran1 a button:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.saran2 a button {
+    background-color: transparent;
+    border: 3px solid #010101;
+}
+
+.saran2 a button:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.saran3 a button {
+    background-color: transparent;
+    border: 3px solid #010101;
+}
+
+.saran3 a button:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.saran4 a button {
+    background-color: transparent;
+    border: 3px solid #010101;
+}
+
+.saran4 a button:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.saran5 a button {
+    background-color: transparent;
+    border: 3px solid #010101;
+}
+
+.saran5 a button:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.saran6 a button {
+    background-color: transparent;
+    border: 3px solid #010101;
+}
+
+.saran6 a button:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.saran7 a button {
+    background-color: transparent;
+    border: 3px solid #010101;
+}
+
+.saran7 a button:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+.saran a button {
+    border-color:rgb(92, 89, 89);
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 0rem 0.2rem;
+    cursor: pointer;
+
+}
+
+.saran .ak button {
+    width: 100px;
+}
+
+.saran .bk button {
+    width: 110px
+}
+
+.saran2 a button  {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 0.7rem 0.2rem;
+    cursor: pointer;
+    
+}
+
+
+.saran3 a button  {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 0rem 0.2rem;
+    cursor: pointer;
+   
+    
+}
+
+.saran4 a button  {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 0.7rem 0.2rem;
+    cursor: pointer;
+    
+    
+}
+
+.saran5 a button  {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 0rem 0.2rem;
+    cursor: pointer;
+    
+    
+}
+
+.saran6 a button  {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: 0.7rem 0.2rem;
+    cursor: pointer;
+
+}
+
+.saran7 a button  {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0rem 0.2rem;
+
+}
+
+.saran2 .aj button {
+    width: 165px;
+}
+
+.saran2 .bj button {
+    width: 118px;
+}
+
+.saran2 .cj button {
+    width: 80px;
+}
+
+.saran2 .dj button {
+    width: 109px;
+}
+
+.saran3 .ap button {
+    width: 180px;
+}
+
+.saran3 .bp button {
+    width: 174px;
+}
+
+.saran3 .cp button {
+    width: 140px;
+}
+
+.saran3 .dp button {
+    width: 145px;
+}
+
+.saran5 .ao button {
+    width: 145px;
+}
+
+.saran5 .bo button {
+    width: 173px;
+}
+
+.saran5 .co button {
+    width: 174px;
+}
+
+.saran5 .do button {
+    width: 107px;
+}
+
+.saran4 .as button {
+    width: 100px;
+}
+
+.saran4 .bs button {
+    width: 149px;
+}
+
+.saran4 .cs button {
+    width: 100px;
+}
+
+.saran4 .ds button {
+    width: 140px;
+}
+
+.saran6 .ai button {
+    width: 68px;
+}
+
+.saran6 .bi button {
+    width: 122px;
+}
+
+.saran6 .ci button {
+    width: 106px;
+}
+
+.saran6 .di button {
+    width: 117px;
+}
+
+.saran7 .al button {
+    width: 74px;
+}
+
+.saran7 .bl button {
+    width: 86px;
+}
+
+.saran7 .cl button {
+    width: 67px;
+}
+
+.saran7 .dl button {
+    width: 82px;
+}
+
+
+.label1 {
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 13px;
+    background-color: transparent;
+    border: 3px solid #010101;
+    border-radius: 50px;
+    margin: 1rem 0rem;
+    font-size: 17px;
+
+}
+.label2 {
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 13px;
+    background-color: transparent;
+    border: 3px solid #010101;
+    border-radius: 50px;
+    margin: 1rem -7rem;
+    font-size: 17px;
+
+}
+
+.label1:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.label2:hover {
+    background-color: rgba(180, 180, 180, 0.703);
+}
+
+.moretext {
+    margin: 1rem -7rem;
+}
+
+#ch {
+    display: none;
+}
+
+#ch:checked ~ .moretext {
+    display: block;
+    
+}
+
+#ch:checked ~ .label2 {
+   display: none;
+}
+
+#ch:checked ~ .label1 {
+    margin: 5rem 1rem;
+}
+
+.moretext {
+    display: none;
+}
+
+.sec3 {
+    background-color: rgb(88, 144, 97);
+    padding: 10rem 6rem 10rem;
+    
+}
+
+.sec3 h1 {
+    margin: -6rem -0.5rem;
+    font-size: 3.2rem;
+    display: flex;
+    font-weight: 100;
+    margin-right: 60rem;
+    color: rgb(212, 62, 62);
+    
+}
+
+.sec3 a button {
+    margin: -3.5rem 32rem;
+    position: absolute;
+    border-radius: 50px;
+    width: 270px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 3px solid rgb(157, 180, 243);
+    background: transparent;
+    color: rgb(157, 180, 243);
+}
+
+.sec3 a button:hover {
+    background-color: rgb(193, 203, 232);
+    color: darkblue;
+    border: 1px solid rgb(157, 180, 243);
+}
+
+#slider {
+    margin: 0px 130px;
+    width: 1200px;
+    max-width: 200%;
+    text-align: center;
+    
+    
+    
+}
+
+#slider input[type=radio] {
+    display: none;
+}
+
+#slider label {
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+#slides {
+    padding: 60px;
+    position: relative;
+    z-index: 1;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 16%, rgba(177,186,177,1) 47%, rgba(149,149,149,1) 80%); 
+
+    
+   
+    
+}
+
+.left {
+    padding: 9rem 6.3rem ;
+    display: flex;
+    position: absolute;
+    margin: 7rem 0rem;
+    cursor: pointer;
+}
+.right {
+    margin:16rem 83.5rem;
+    display: flex;
+    position:absolute;
+    cursor: pointer;
+    
+}
+
+.img {
+    display: flex;
+    position: relative;
+    padding-top: 1rem;
+    float: right;
+    border-radius: 100%;
+    
+
+}
+
+.slide-content h2 {
+    font-size: 2.187rem;
+    color: brown;
+    margin: -0.1rem -2rem ;
+    display: flex;
+    position: relative;
+
+}
+
+.slide-content .para1 {
+    margin: 4rem 0rem;
+    color: black;
+    display:flex;
+    position: block;
+    font-size: 1.8rem;
+}
+
+.slide-content .para2 {
+    margin: -1.5rem -4rem;
+    color: black;
+    display:flex;
+    position: block;
+    font-size: 1.8rem;
+}
+.slide-content .para3 {
+    margin: 4rem -4rem;
+    color: black;
+    display:flex;
+    position: block;
+    font-size: 1.8rem;
+}
+.slide-content .para4 {
+    margin: -1.5rem 0rem;
+    color: black;
+    display:flex;
+    position: block;
+    font-size: 1.8rem;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+#slide1:checked ~ #slides .inner {
+    margin-left: 0;
+
+}
+
+#slide2:checked ~ #slides .inner {
+    margin-left: -100%;
+}
+
+#slide3:checked ~ #slides .inner {
+    margin-left: -200%;
+}
+
+#slide4:checked ~ #slides .inner {
+    margin-left: -300%;
+}
+
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+
+#slides .slide {
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+
+
+#controls {
+    margin: -180px 0 0 0 ;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+   
+}
+
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+
+#controls label:hover {
+    opacity: 1;
+}
+
+#slide1:checked ~ #controls label:nth-child(2),
+#slide2:checked ~ #controls label:nth-child(3),
+#slide3:checked ~ #controls label:nth-child(4),
+#slide41:checked ~ #controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+
+#slide1:checked ~ #controls label:nth-last-child(2),
+#slide2:checked ~ #controls label:nth-last-child(3),
+#slide3:checked ~ #controls label:nth-last-child(4),
+#slide4:checked ~ #controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+    
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+
+}
+
+#slide1:checked ~ #bullets label:nth-child(1),
+#slide2:checked ~ #bullets label:nth-child(2),
+#slide3:checked ~ #bullets label:nth-child(3),
+#slide4:checked ~ #bullets label:nth-child(4) {
+    background: #444;
+}
+
+.sec5 {
+    margin-top: 15rem;
+}
+
+.image {
+    margin-left: 2.3rem;
+    width: 400px;
+    height: 250px;
+}
+
+.first {
+    margin-left: 6rem;
+    font-size: 3rem;
+    font-weight: 100;
+    margin-right: 50rem;
+    line-height: 1.3;
+    letter-spacing: 1px;
+}
+
+.image1 {
+    display: block;
+    position: absolute;
+    margin: -24.5rem 44rem;
+    width: 400px;
+    height: 250px;
+}
+
+.second {
+    display: flex;
+    position: absolute;
+    margin: -7.8rem 47rem;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.second1 {
+    display: flex;
+    position: absolute;
+    margin: -7.8rem 57.4rem;
+    font-size: 3rem;
+    font-weight: 100;
+}
+.second2 {
+    display: flex;
+    position: absolute;
+    margin: -7.8rem 68.4rem;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.second3 {
+    display: flex;
+    position: absolute;
+    margin: -3.7rem 47rem;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.second4 {
+    display: flex;
+    position: absolute;
+    margin: -3.7rem 59.6rem;
+    font-size: 3rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+div a button {
+    border-radius: 50px;
+    margin: 2rem 10rem;
+    width: 340px;
+    height: 55px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 1px solid grey;
+    background-color: white;
+    cursor: pointer;
+}
+
+div a button:hover {
+    border: 3px solid #101010;
+    background-color: var(--gbnavbar);
+    color: #0da2ff;
+}
+
+.ul4  .oke{
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+    margin: 2rem 50rem;
+    display: flex;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    color: black;
+    border-radius: 5px;
+    padding: 25px;
+    
+}
+
+.ul4 .oke:hover {
+    color: #0da2ff;
+    background-color: var(--gbnavbar);
+    border: 3px solid #010101;
+}
+
+.ul4 a .logo {
+    padding: 0rem 0.3rem;
+}
+
+.ul4 {
+    padding: 2rem 0rem;
+}
+    
+.ul4 a {
+    font-size:2rem;
+    color: var(--primarhy);
+    
+}
+
+.ul4 .ul5 li a {
+    
+    font-size:1.15rem ;
+    font-weight: 600;
+}
+
+.ul4 .ul5 {
+    display: none;
+    background-color: black;
+    margin: -2rem 50rem;
+    
+
+}
+.ul4 .ul5 label {
+    margin: 0rem -9rem;
+}
+
+.ul4:hover .ul5 {
+    display: block;
+    background: white;
+    position: absolute;
+    padding: 0px 166px 300px;
+    border-radius: 10px;
+    max-height: 0px;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 1px 8px 10px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+.ul4:hover .ul5 li {
+    display: block;
+}
+
+.ul4:hover .ul5 li a {
+    padding: 80px 80px;
+    border-radius: 5px;
+    margin-left:-14rem ;
+}
+
+.ul4 li:hover .ul5 li a:hover {
+    background: #222;
+    box-shadow: inset 0px 0px 5px #000;
+}
+
+.sec6 {
+    margin-top: 7rem;
+    
+}
+
+.hero1 {
+    background-color: rgba(245, 238, 226, 0.967);
+    margin: 0rem 0rem 5rem;
+    width: 650px;
+    height: 700px;
+}
+
+.hero1 h1 {
+    position: relative;
+    padding: 11.5rem 6rem 0rem ;
+    font-size: 2.5rem;
+    line-height: 1.1;
+    color: var(--title1);
+    
+}
+
+.hero1 h2 {
+    position: relative;
+    padding: 1rem 5rem 1rem 6rem;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+.hero1 .btnpro {
+    border-radius: 0px;
+    width: 390px;
+    margin: 1rem 6rem;
+    background: rgba(255,233,201,0.967);
+    cursor: pointer;
+    border: none;
+
+    
+}
+
+.sec6 .hero1 .btnpro:hover {
+    border: 3px solid #010101;
+    color: #0da2ff;
+    
+}
+
+.hero1 .btnpro1 {
+    border-radius: 0px;
+    width: 390px;
+    margin: 1rem 6rem;
+    border: none;
+    background: rgba(255, 233, 201, 0.967);
+    
+}
+
+.hero1 .btnpr1:hover {
+    color: var(--title2);
+}
+
+.hero1 .btnpro2 {
+    border-radius: 0px;
+    width: 390px;
+    margin: 1rem 6rem;
+    border: none;
+    background: rgba(255, 233, 201, 0.967);
+    
+}
+
+.hero1 .btnpro2:hover {
+    border: 3px solid #010101;
+    color: #0da2ff;
+}
+
+.hero1 .btnpro .bb {
+    margin: -0.4rem 1rem;
+    
+}
+
+.hero1 .btnpro1 .bb1 {
+    margin: -0.4rem 1rem;
+    
+}
+
+.hero1 .btnpro2 .bb2 {
+    margin: -0.4rem 1rem;
+    
+}
+
+.sec6 .imgpro {
+    display: flex;
+    margin: -45rem 44rem;
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    
+}
+
+.sec7 .pic1 {
+    display: flex;
+    position: absolute;
+    margin: 57rem 0% ;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(1, 1, 3, 1) 8%, rgba(255, 255, 255, 0) 50%);
+    
+   
+    
+}
+
+
+.sec7 h1 {
+    display: flex;
+    position: absolute;
+    padding: 61rem 7rem;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.sec7 a .mulai {
+    display: block;
+    position: absolute;
+    margin:  71rem 7rem;
+    border-radius: 500px;
+    width: 100px;
+    height: 45px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    background-color: rgb(37, 72, 212);
+    border: none;
+    color: #fff;
+}
+
+.sec7 a .mulai:hover {
+    background-color: rgb(1, 1, 135)
+}
+
+.sec7 .pic2 {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin:104.5rem 0rem;
+}
+
+.sec7 .pic3 {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin: 104.5rem 26.5rem;
+}
+
+.sec7 .pic4 {
+    width: 350px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin: 104.5rem 46.9rem;
+}
+.sec7 .pic5 {
+    width: 330px;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    margin: 104.5rem 70.4rem;
+}
+
+.sec8 {
+    background-color: rgb(227, 227, 227);
+    padding: 250px;
+    display: flex;
+    position:relative;
+    margin-top: 121.5rem;
+
+}
+
+.sec8 h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: -14.5rem -9rem;
+    color: var(--primarhy);
+    font-style: oblique;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 10px 10px 18px 10px;
+    cursor:default;
+    
+}
+
+.sec8 h1 span {
+    font-size: 1.3rem;
+    color: var(--title1);
+    font-style: normal;
+    font-weight: 600;
+    text-transform: lowercase;
+    letter-spacing: normal;
+    word-spacing: 1rem;
+    cursor:default;
+    
+}
+
+.sec8 .umum {
+    margin: -13.8rem 15rem;
+    display: flex;
+    
+}
+
+.sec8 .umum h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.sec8 .umum .pet1 {
+    margin: 2.3rem -3.5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum .pet2 {
+    margin: 4rem 0.5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum .pet3 {
+    margin: 5.6rem -7.1rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+
+}
+.sec8 .umum .pet4 {
+    margin: 7.2rem 3.6rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum .pet5 {
+    margin: 8.9rem -5.8rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum .pet6 {
+    margin: 10.6rem 3.5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum .pet7 {
+    margin: 12.2rem -6.6rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum .pet1:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum .pet2:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum .pet3:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum .pet4:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum .pet5:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum .pet6:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum .pet7:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum1 {
+    margin: -13.8rem -2rem;
+    display: flex;
+}
+
+.sec8 .umum1 h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.sec8 .umum1 .ket1 {
+    margin: 2.3rem -9.2rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71); 
+}
+
+.sec8 .umum1 .ket2 {
+    margin: 4rem 5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum1 .ket3 {
+    margin: 5.6rem -9.7rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+
+}
+.sec8 .umum1 .ket4 {
+    margin: 7.2rem 7.7rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum1 .ket5 {
+    margin: 8.9rem -11rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum1 .ket6 {
+    margin: 10.6rem 7.3rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum1 .ket1:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum1 .ket2:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum1 .ket3:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum1 .ket4:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum1 .ket5:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum1 .ket6:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+
+.sec8 .umum2 {
+    margin: -13.8rem 7rem;
+    display: flex;
+}
+
+.sec8 .umum2 h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
+    
+}
+
+.sec8 .umum2 .ret1 {
+    margin: 2.3rem -7.3rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71); 
+}
+
+.sec8 .umum2 .ret2 {
+    margin: 4rem 4.7rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum2 .ret3 {
+    margin: 5.6rem -9.8rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+
+}
+.sec8 .umum2 .ret4 {
+    margin: 7.2rem 5.2rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum2 .ret1:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum2 .ret2:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum2 .ret3:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum2 .ret4:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.sec8 .umum3 {
+    margin: -13.8rem -4rem;
+    display: flex;
+    
+}
+
+.sec8 .umum3 h2 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.sec8 .umum3 .bet1 {
+    margin: 2.3rem -4.5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum3 .bet2 {
+    margin: 4rem 0.6rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum3 .bet3 {
+    margin: 5.6rem -5.2rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+
+}
+.sec8 .umum3 .bet4 {
+    margin: 7.2rem -0.1rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum3 .bet5 {
+    margin: 8.9rem -4.7rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet6 {
+    margin: 10.6rem 0.5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet7 {
+    margin: 12.2rem -4.2rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet8 {
+    margin: 13.9rem 0.8rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet9 {
+    margin: 15.6rem -4.5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet10 {
+    margin: 17.3rem 1.6rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet11 {
+    margin: 19rem -5rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet12 {
+    margin: 20.7rem 1.2rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet13 {
+    margin: 22.4rem -4.7rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+.sec8 .umum3 .bet14 {
+    margin: 24rem 2.1rem;
+    font-size: 1.2rem;
+    color: rgb(71, 71, 71);
+    
+}
+
+.sec8 .umum3 .bet1:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet2:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet3:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet4:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet5:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet6:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet7:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet8:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet9:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet10:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet11:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet12:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet13:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+.sec8 .umum3 .bet14:hover {
+    color: #0da2ff;
+    text-decoration: underline;
+}
+
+.foot {
+    display: flex;
+    position: relative;
+    cursor: default;
+}
+
+.foot h3 {
+    color: #010101;
+    font-style: oblique;
+    margin: 0.5rem 6rem;
+
+}
+
+.foot h3 span {
+    color: var(--title1);
+    text-transform: lowercase;
+    
+}
+
+.foot label {
+    margin: 0.7rem -5.2rem;
+    color: rgb(100, 99, 99);
+}
+
+.foot1 {
+   display: flex;
+   position: relative;
+   margin: -5rem -1rem; 
+   cursor: pointer;
+   border: none;
+   background: none;
+   width: 0;
+   height: 0;
+}
+
+.foot1 .kw1 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem 18rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw2 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem -13rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw3 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem -6.9rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw4 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem -1rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw5 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem 5rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw6 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem 1rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw7 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem 5rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw8 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem 1rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw9 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem 6rem;
+    width: 0;
+    height: 0;
+    
+}
+.foot1 .kw10 button {
+    border: none;
+    background: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 3rem 1rem;
+    width: 0;
+    height: 0;
+    
+}
+
+.foot1 .kw1 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw2 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw3 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw4 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw5 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw6 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw7 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw8 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw9 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw10 button:hover {
+    text-decoration: underline;
+}
+
+.foot1 .kw10 .upper {
+    display: flex;
+    margin: -1.3rem 3.7rem;
+}
+
+
+.foot1 .bahasa .bahasa1 {
+    display: none;
+    background-color: black;
+    margin: -28rem 0.9rem;
+    
+
+}
+
+.foot1 .bahasa:hover .bahasa1 {
+    display: block;
+    background: white;
+    position: absolute;
+    padding: 17px;
+    border-radius: 10px;
+    max-height: 23rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    box-shadow: 1px 2px 7px 1px rgba(0, 0, 0, 0.8);
+
+}
+
+.foot1 .bahasa:hover .bahasa1 li {
+    display: block;
+}
+
+.foot1 .bahasa:hover .bahasa1 li a {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.foot1 .bahasa1 .inggris span {
+    display: block;
+    margin: 0rem 0.5rem;
+}
+
+.foot1 .bahasa1 .tagalog span {
+    display: block;
+    margin: 0rem 0.7rem;
+}
+
+.foot1 .bahasa1 .indo span {
+    display: block;
+    margin: 0rem 0.2rem;
+    
+   
+}
+
+.foot1 .bahasa1 .indo1 {
+    background-color: var(--title2);
+}
+
+
+.foot1 .bahasa1 .melayu span {
+    display: block;
+    margin: 0rem 0.7rem;
+}
+
+.foot1 .bahasa1 .polish span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .jerman span {
+    display: block;
+    margin: 0rem 0.7rem;
+}
+
+.foot1 .bahasa1 .denmark span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .itali span {
+    display: block;
+    margin: 0rem 0.3rem;
+}
+
+.foot1 .bahasa1 .belanda span {
+    display: block;
+    margin: 0rem 0.5rem;
+}
+
+.foot1 .bahasa1 .swedia span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .norwegia span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .jepang span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .arab span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .ceko span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .spanyol span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .prancis span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .india span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .korea span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .portugis span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .rumania span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .rusia span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .thai span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .ukraina span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .turki span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .sederhana span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .tradisional span {
+    display: block;
+    margin: 0rem 0.4rem;
+}
+
+.foot1 .bahasa1 .king1:hover {
+    background-color: #0da2ff;
+}
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
